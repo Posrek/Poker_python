@@ -1,4 +1,5 @@
 def create_deck():
-    deck_list={1,2,3,4,5,6,7,8,9,10}
-    return deck_list
+    return [f"{letter}{number}" for letter in ['A', 'B', 'C', 'D'] for number in range(1, 14)]
+
+
 
